@@ -24,7 +24,7 @@ namespace SimulationForensic
     }
 }
 ```
-This is a powershell script which download, execute and set persistence for this fake malware : 
+This is a powershell script which downloads, executes and sets persistence for this fake malware : 
 ```ps1
 # ==========================================
 # SIMULATION D'ATTAQUE FORENSIC
